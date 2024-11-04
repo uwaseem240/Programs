@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400&display=swap");
+
+body {
+  background-color: #15141c;
+  color: #ffffff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container-1 {
+  padding: 175px;
+  text-align: center;
+  font-family: "Tektur", sans-serif;
+}
+
+.logo {
+  width: 225px;
+}
+
+.title {
+  font-size: 65px;
+  margin-top: -10px;
+}
+
+.subtitle {
+  font-family: "Tektur", sans-serif;
+  margin-top: -12px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffffa8;
+}
+
+.btn-shop {
+  margin-top: 10px;
+  background: linear-gradient(209deg, #194c4f 0%, #16f711 100%);
+  padding: 20px 44px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  height: 65px;
+  font-size: 17px;
+}
+
+.btn-shop:hover {
+  transform: scale(1.05);
+}
+
+.container-2 {
+  background: linear-gradient(90deg, #16f711 0%, #194c4f 100%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: stretch;
+  padding-left: 0;
+  width: 100%;
+}
+
+.section-1,
+.section-2 {
+  padding: 60px 40px;
+  width: calc(50% - 1px);
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Tektur", sans-serif;
+}
+
+.section-1 img,
+.section-2 img {
+  margin-bottom: 20px;
+  width: 110px;
+  height: auto;
+}
+
+.section-1 {
+  border-right: 1px solid #ffffff35;
+}
+
+.section-1 h3,
+.section-2 h3 {
+  font-family: "Sora", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.section-1 p,
+.section-2 p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffffa8;
+  line-height: 2;
+  margin-top: -0.5px;
+}
+
+.section-1 .folder-img {
+  width: 110px;
+  height: auto;
+}
+
+.section-2 .learn-img {
+  width: 110px;
+  height: auto;
+}
+
+.container-3 {
+  padding: 70px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.container-3 h2 {
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+}
+
+.container-3 p {
+  font-family: "Tektur", sans-serif;
+  font-weight: normal;
+  max-width: 600px;
+  line-height: 2;
+  color: #ffffffa8;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.lock-img {
+  width: 100px;
+}
+
+.btn-learn-more {
+  margin-top: 20px;
+  padding: 20px 40px;
+  background: linear-gradient(209deg, #194c4f 0%, #16f711 100%);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: transform 0.25s ease, background-color 0.25s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  height: 3.75rem;
+}
+
+.btn-learn-more:hover {
+  transform: scale(1.05);
+}
+
+.pricing {
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing h2 {
+    font-size: 67px;
+    font-family: 'Tektur', sans-serif;
+}
+
+.pricing-description {
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: 'Tektur', sans-serif;
+    color: #ffffffa8;
+    max-width: 600px;
+    margin-top: -35px;
+    line-height: 2;
+    padding-bottom: 70px;
+}
+
+.price {
+  font-family: 'Sora', sans-serif;
+  font-size: 60px;
+  margin-top: -50px;
+  font-weight: normal;
+}
+
+.premium-price {
+  font-family: 'Sora', sans-serif;
+  font-size: 60px;
+  margin-top: -50px;
+  font-weight: 1000;
+}
+
+.pricing .description {
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: 'Tektur', sans-serif;
+    color: #ffffffa8;
+    max-width: 375px;
+    margin-top: -35px;
+    line-height: 2;
+    padding-bottom: 70px;
+}
+
+.pricing-container {
+    background: linear-gradient(90deg, #15f711d4 0%, #3f8028ca 100%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: stretch;
+    padding-left: 0;
+    max-width: 935px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.pricing-section-1, .pricing-section-2 {
+    width: calc(50% - 1px);
+    max-width: px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Tektur", sans-serif;
+    padding-bottom: 70px;
+}
+
+.pricing-section-1 h3, .pricing-section-2 h3 {
+    padding: 45px;
+    font-family: 'Sora', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.pricing-section-1 .btn-shop {
+    padding: 20px 20px;
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid #ffffffa8;
+    color: white;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: -40px;
+    text-align: left;
+    display: block;
+    width: 70%;
+}
+
+.pricing-section-2 .btn-shop {
+    padding: 20px 20px;
+    background: white;
+    box-shadow: none;
+    border: 1px solid #ffffffa8;
+    color: #0a3205ae;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: -40px;
+    text-align: left;
+    display: block;
+    width: 70%;
+}
+
+.pricing-section-1 {
+  border-right: 1px solid #ffffff35;
+}
+
+.contact {
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.contact h2 {
+  font-size: 67px;
+  font-family: 'Tektur', sans-serif;
+}
+
+.contact p {
+  font-size: 22px;
+  font-family: 'Tektur', sans-serif;
+  color: #ffffffa8;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 2;
+  margin-top: -35px;
+  margin-bottom: 35px;
+}
+
+.get-in-touch {
+  background: linear-gradient(209deg, #194c4f 0%, #16f711 100%);
+  padding: 20px 44px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  height: 65px;
+  font-size: 17px;
+}
+
+.copyright {
+  padding: 100px;
+  text-align: center;
+  font-size: 15px;
+  color: #ffffff43;
+  font-family: 'Sora', sans-serif;
+}
+
+.section-divider {
+    border: none;
+    height: 1px;
+    background-color: #ffffff35;
+    width: 100%;
+}
